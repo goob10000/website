@@ -1,0 +1,64 @@
+/* xkcd-style CSS for your website */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+body {
+  font-family: 'Comic Neue', 'Comic Sans MS', cursive, sans-serif;
+  background: #fff;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+main, .content, #content {
+  max-width: 700px;
+  margin: 2em auto;
+  padding: 2em;
+  border: 2px solid #222;
+  border-radius: 8px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Comic Neue', 'Comic Sans MS', cursive, sans-serif;
+  font-weight: 700;
+  border-bottom: 2px solid #222;
+  display: inline-block;
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: #06c;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #d12f1b;
+}
+
+img {
+  border: 2px solid #222;
+  border-radius: 4px;
+  max-width: 100%;
+  filter: grayscale(100%) contrast(1.2);
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #222;
+  margin: 2em 0;
+}
+
+pre, code {
+  font-family: 'Comic Neue', 'Comic Sans MS', cursive, monospace;
+  background: #f9f9f9;
+  border: 1px solid #222;
+  border-radius: 4px;
+  padding: 0.2em 0.4em;
+}
+
+/* Remove box shadows, gradients, and fancy effects */
+* {
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
